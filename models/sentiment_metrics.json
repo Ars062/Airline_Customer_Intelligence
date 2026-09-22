@@ -1,0 +1,31 @@
+{
+  "macro_f1": 0.718,
+  "classification_report": "              precision    recall  f1-score   support\n\n    negative       0.88      0.95      0.91     12814\n     neutral       0.51      0.25      0.33      2924\n    positive       0.89      0.92      0.91      9287\n\n    accuracy                           0.86     25025\n   macro avg       0.76      0.71      0.72     25025\nweighted avg       0.84      0.86      0.84     25025\n",
+  "confusion_matrix": [
+    [
+      12224,
+      380,
+      210
+    ],
+    [
+      1340,
+      726,
+      858
+    ],
+    [
+      397,
+      309,
+      8581
+    ]
+  ],
+  "inputs": [
+    "Review text only"
+  ],
+  "leakage_excluded": [
+    "OverallScore",
+    "all 7 service ratings",
+    "Recommended",
+    "Title"
+  ],
+  "disclaimer": "Labels derived from ratings = proxy labels, not human-annotated sentiment."
+}
