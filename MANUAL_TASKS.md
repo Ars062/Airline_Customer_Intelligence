@@ -57,23 +57,14 @@ Requires human credentials/authorization. The `gh` CLI is not installed, so logi
 
 ### Done automatically (2026-09-22)
 - `git init`, branch `main`, local identity `Ars062 <arsiddique10762@gmail.com>`
-- Remote `origin` set to `https://github.com/Ars062/Airline_Customer_Intelligence.git`
+- Remote `origin` set to SSH `git@github.com:Ars062/Airline_Customer_Intelligence.git`
+  (existing `~/.ssh/id_ed25519` authenticated as Ars062 — no password prompt needed)
 - `.gitignore` excludes the 117 MB raw CSV (over GitHub's 100 MB limit); audit outputs are committed
 - Local commit `ecac2c5` — "Phase 1: dataset audit (129k rows x 22 cols) + project scaffold" (7 files, no secrets)
-
-### Exact Steps (for you)
-1. In a terminal inside `D:\Airline_Customer_Intelligence`, run: `git push -u origin main`
-2. When prompted, sign in via the browser popup (Git Credential Manager) or with a
-   Personal Access Token (GitHub → Settings → Developer settings → Tokens).
-   Username: `Ars062`.
-3. Refresh `https://github.com/Ars062/Airline_Customer_Intelligence` to verify files appear.
-
-### Exact Steps
-1. Create repo, `git init`, review `git status`/`git diff` for secrets.
-2. Authenticate (`gh auth login` or equivalent) and push.
+- Pushed `main` → `origin/main` (`ec9331a` verified on remote via `git ls-remote`); upstream tracking set
 
 ### Verification
-Remote repo URL recorded; no secrets committed.
+Remote repo shows 2 commits on `main`; `git status -sb` → `## main...origin/main` (clean); no secrets committed.
 
 ### Status
-PENDING
+COMPLETED (first push; repeat `git push` for future phases)
