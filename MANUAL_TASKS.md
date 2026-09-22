@@ -53,8 +53,20 @@ Authenticate to GitHub and push the local project to
 `https://github.com/Ars062/Airline_Customer_Intelligence` (verified: repo exists, currently empty).
 
 ### Why
-Requires human credentials/authorization. Local folder `D:\Airline_Customer_Intelligence`
-is NOT a git repo yet, and the `gh` CLI is not installed, so login + first push need you.
+Requires human credentials/authorization. The `gh` CLI is not installed, so login + first push need you.
+
+### Done automatically (2026-09-22)
+- `git init`, branch `main`, local identity `Ars062 <arsiddique10762@gmail.com>`
+- Remote `origin` set to `https://github.com/Ars062/Airline_Customer_Intelligence.git`
+- `.gitignore` excludes the 117 MB raw CSV (over GitHub's 100 MB limit); audit outputs are committed
+- Local commit `ecac2c5` — "Phase 1: dataset audit (129k rows x 22 cols) + project scaffold" (7 files, no secrets)
+
+### Exact Steps (for you)
+1. In a terminal inside `D:\Airline_Customer_Intelligence`, run: `git push -u origin main`
+2. When prompted, sign in via the browser popup (Git Credential Manager) or with a
+   Personal Access Token (GitHub → Settings → Developer settings → Tokens).
+   Username: `Ars062`.
+3. Refresh `https://github.com/Ars062/Airline_Customer_Intelligence` to verify files appear.
 
 ### Exact Steps
 1. Create repo, `git init`, review `git status`/`git diff` for secrets.
