@@ -1,0 +1,280 @@
+{
+  "shape": {
+    "n_rows": 129455,
+    "n_cols": 22
+  },
+  "columns": [
+    "Aircraft",
+    "AirlineName",
+    "CabinType",
+    "DateFlown",
+    "DatePub",
+    "EntertainmentRating",
+    "FoodRating",
+    "GroundServiceRating",
+    "OriginCountry",
+    "OverallScore",
+    "Recommended",
+    "Review",
+    "Route",
+    "SeatComfortRating",
+    "ServiceRating",
+    "Slug",
+    "Title",
+    "TravelType",
+    "TripVerified",
+    "ValueRating",
+    "WifiRating",
+    "unique_id"
+  ],
+  "dtypes": {
+    "Aircraft": "object",
+    "AirlineName": "object",
+    "CabinType": "object",
+    "DateFlown": "object",
+    "DatePub": "object",
+    "EntertainmentRating": "int64",
+    "FoodRating": "int64",
+    "GroundServiceRating": "int64",
+    "OriginCountry": "object",
+    "OverallScore": "float64",
+    "Recommended": "object",
+    "Review": "object",
+    "Route": "object",
+    "SeatComfortRating": "int64",
+    "ServiceRating": "int64",
+    "Slug": "object",
+    "Title": "object",
+    "TravelType": "object",
+    "TripVerified": "object",
+    "ValueRating": "int64",
+    "WifiRating": "int64",
+    "unique_id": "object"
+  },
+  "missing": {
+    "Aircraft": 93032,
+    "AirlineName": 0,
+    "CabinType": 3018,
+    "DateFlown": 38462,
+    "DatePub": 0,
+    "EntertainmentRating": 0,
+    "FoodRating": 0,
+    "GroundServiceRating": 0,
+    "OriginCountry": 1678,
+    "OverallScore": 4331,
+    "Recommended": 0,
+    "Review": 824,
+    "Route": 38630,
+    "SeatComfortRating": 0,
+    "ServiceRating": 0,
+    "Slug": 0,
+    "Title": 4,
+    "TravelType": 38309,
+    "TripVerified": 69947,
+    "ValueRating": 0,
+    "WifiRating": 0,
+    "unique_id": 0
+  },
+  "missing_pct": {
+    "Aircraft": 71.86,
+    "AirlineName": 0.0,
+    "CabinType": 2.33,
+    "DateFlown": 29.71,
+    "DatePub": 0.0,
+    "EntertainmentRating": 0.0,
+    "FoodRating": 0.0,
+    "GroundServiceRating": 0.0,
+    "OriginCountry": 1.3,
+    "OverallScore": 3.35,
+    "Recommended": 0.0,
+    "Review": 0.64,
+    "Route": 29.84,
+    "SeatComfortRating": 0.0,
+    "ServiceRating": 0.0,
+    "Slug": 0.0,
+    "Title": 0.0,
+    "TravelType": 29.59,
+    "TripVerified": 54.03,
+    "ValueRating": 0.0,
+    "WifiRating": 0.0,
+    "unique_id": 0.0
+  },
+  "duplicate_rows": 0,
+  "nunique": {
+    "Aircraft": 3633,
+    "AirlineName": 547,
+    "CabinType": 5,
+    "DateFlown": 112,
+    "DatePub": 5200,
+    "EntertainmentRating": 6,
+    "FoodRating": 6,
+    "GroundServiceRating": 6,
+    "OriginCountry": 203,
+    "OverallScore": 11,
+    "Recommended": 2,
+    "Review": 128426,
+    "Route": 51402,
+    "SeatComfortRating": 6,
+    "ServiceRating": 6,
+    "Slug": 548,
+    "Title": 70976,
+    "TravelType": 5,
+    "TripVerified": 7,
+    "ValueRating": 6,
+    "WifiRating": 6,
+    "unique_id": 129455
+  },
+  "numeric_describe": {
+    "EntertainmentRating": {
+      "count": 129455.0,
+      "mean": 1.5572,
+      "std": 1.7511,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "FoodRating": {
+      "count": 129455.0,
+      "mean": 1.9891,
+      "std": 1.7745,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "GroundServiceRating": {
+      "count": 129455.0,
+      "mean": 1.652,
+      "std": 1.7403,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 1.0,
+      "75%": 3.0,
+      "max": 5.0
+    },
+    "OverallScore": {
+      "count": 125124.0,
+      "mean": 4.5564,
+      "std": 3.4988,
+      "min": 1.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 8.0,
+      "max": 10.0
+    },
+    "SeatComfortRating": {
+      "count": 129455.0,
+      "mean": 2.4702,
+      "std": 1.6203,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "ServiceRating": {
+      "count": 129455.0,
+      "mean": 2.6896,
+      "std": 1.7745,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "ValueRating": {
+      "count": 129455.0,
+      "mean": 2.6375,
+      "std": 1.6288,
+      "min": 0.0,
+      "25%": 1.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 5.0
+    },
+    "WifiRating": {
+      "count": 129455.0,
+      "mean": 0.4539,
+      "std": 1.0783,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 5.0
+    }
+  },
+  "text_stats_Review": {
+    "n_empty": 824,
+    "n_short_lt20": 825,
+    "n_long_gt3000": 939,
+    "mean_len": 746.17,
+    "median_len": 602.0,
+    "p90_len": 1402.0,
+    "p99_len": 2816.459999999992,
+    "max_len": 5576
+  },
+  "datelike_heuristic": {
+    "Aircraft": {
+      "sample_hits_frac": 0.0
+    },
+    "AirlineName": {
+      "sample_hits_frac": 0.0
+    },
+    "CabinType": {
+      "sample_hits_frac": 0.0
+    },
+    "DateFlown": {
+      "sample_hits_frac": 1.0
+    },
+    "DatePub": {
+      "sample_hits_frac": 1.0
+    },
+    "OriginCountry": {
+      "sample_hits_frac": 0.0
+    },
+    "Recommended": {
+      "sample_hits_frac": 0.0
+    },
+    "Review": {
+      "sample_hits_frac": 0.1
+    },
+    "Route": {
+      "sample_hits_frac": 0.0
+    },
+    "Slug": {
+      "sample_hits_frac": 0.0
+    },
+    "Title": {
+      "sample_hits_frac": 0.0
+    },
+    "TravelType": {
+      "sample_hits_frac": 0.0
+    },
+    "TripVerified": {
+      "sample_hits_frac": 0.0
+    },
+    "unique_id": {
+      "sample_hits_frac": 0.01
+    }
+  },
+  "overall_score_value_counts": {
+    "1.0": 44070,
+    "2.0": 12228,
+    "3.0": 7769,
+    "4.0": 4812,
+    "5.0": 5396,
+    "6.0": 4412,
+    "7.0": 7589,
+    "8.0": 11754,
+    "9.0": 12512,
+    "10.0": 14582,
+    "NaN": 4331
+  },
+  "recommended_value_counts": {
+    "no": 77597,
+    "yes": 51858
+  }
+}

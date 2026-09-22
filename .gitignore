@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+models/*.joblib
+models/*.pkl
+*.db
+*.sqlite3
+# Raw dataset is 117 MB (> GitHub 100 MB limit) — never commit; see README/MANUAL_TASKS for source.
+data/AirlineReviews.csv
