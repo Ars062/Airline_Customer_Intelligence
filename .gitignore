@@ -10,3 +10,5 @@ models/*.pkl
 *.sqlite3
 # Raw dataset is 117 MB (> GitHub 100 MB limit) — never commit; see README/MANUAL_TASKS for source.
 data/AirlineReviews.csv
+# Cleaned output is 124 MB (> 100 MB limit) — reproducible via src/data/clean.py; not committed.
+data/processed/airline_reviews_clean.csv
